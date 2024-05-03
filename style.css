@@ -5,6 +5,7 @@ body {
     /* align-items: stretch; */
     height: 100vh;
     border: 1px solid black;
+    font-family: sans-serif;
 }
 
 .body-section {
@@ -121,17 +122,35 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: blue;
+    align-items: center;
+    background-color: #3882f6;
     padding: 16px 32px;
-    width: 75%;
-    height: 12%;
+    width: 800px;
+    height: 50px;
+    border-radius: 5px;
 }
 
 .section-4-text {
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
+.section-4-text .primary-text {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.section-4 button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+
+}
 
 .test {
     border: 3px solid black;
