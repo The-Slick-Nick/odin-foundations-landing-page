@@ -91,14 +91,23 @@ li {
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+    background-color: #e5e7eb;
 }
 
 .quote {
     align-self: center;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+    font-family: sans-serif;
 }
 
 .quoter {
     align-self: flex-end;
+    font-weight: 800;
+    font-family: sans-serif;
 }
 
 /* SECTION 4 */
