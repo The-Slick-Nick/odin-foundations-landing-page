@@ -4,7 +4,6 @@ body {
     justify-content: center;
     /* align-items: stretch; */
     height: 100vh;
-    border: 1px solid black;
     font-family: sans-serif;
 }
 
@@ -161,8 +160,4 @@ li {
     width: 100px;
     height: 25px;
 
-}
-
-.test {
-    border: 3px solid black;
 }
