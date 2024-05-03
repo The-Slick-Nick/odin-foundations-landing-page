@@ -13,12 +13,12 @@ body {
     flex: 1;
 }
 
-.header {
+.section-header {
     display: flex;
     justify-content: space-between;
 }
 
-.header ul {
+.section-header ul {
     display: flex;
     list-style-type: none;
 }
