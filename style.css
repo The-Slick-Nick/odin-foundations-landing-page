@@ -101,6 +101,27 @@ li {
     align-self: flex-end;
 }
 
+/* SECTION 4 */
+.section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-4-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blue;
+    padding: 16px 32px;
+    width: 75%;
+    height: 12%;
+}
+
+.section-4-text {
+    display: flex;
+    flex-direction: column;
+}
 
 
 .test {
