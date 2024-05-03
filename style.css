@@ -11,22 +11,46 @@ body {
     /* temp for testing - outline sections */
     border: 2px dotted red;
     flex: 1;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
 }
 
-.section-header {
+.section-1 {
+    padding-bottom: 32px;
+}
+
+.section-1-header {
     display: flex;
     justify-content: space-between;
 }
 
-.section-header ul {
+.section-1-header ul {
     display: flex;
     list-style-type: none;
+    gap: 8px;
 }
 
 li {
     text-decoration: none;
 }
 
+.section-1-body {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.pretend-image {
+    align-self: center;
+    width: 600px;
+    height: 300px;
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
 .test {
     border: 3px solid black;
 }
