@@ -85,6 +85,24 @@ li {
     border: 2px solid blue;
 }
 
+/* SECTION 3 */
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote {
+    align-self: center;
+}
+
+.quoter {
+    align-self: flex-end;
+}
+
+
+
 .test {
     border: 3px solid black;
 }
