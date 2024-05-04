@@ -13,7 +13,10 @@ body {
 }
 
 .section-1 {
-    padding-bottom: 32px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    box-sizing: border-box;
     background-color: #1f2937;
     color: white;
 }
@@ -21,6 +24,7 @@ body {
 .section-1-header {
     display: flex;
     justify-content: space-between;
+    flex: 1;
 }
 
 .section-1-header ul {
@@ -34,9 +38,17 @@ li {
 }
 
 .section-1-body {
+    align-self: stretch;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    flex: 15;
 
+}
+
+.text-title {
+    font-size: 32px;
+    font-weight: 800;
 }
 
 .section-1-body button {
@@ -51,8 +63,8 @@ li {
 
 .section-1 .pretend-image {
     align-self: center;
-    width: 300px;
-    height: 150px;
+    width: 500px;
+    height: 250px;
     flex-shrink: 0;
 
     display: flex;
