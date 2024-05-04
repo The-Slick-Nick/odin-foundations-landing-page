@@ -79,17 +79,19 @@ li {
 }
 
 .section-1 .pretend-image {
-    align-self: center;
-    width: 500px;
-    height: 250px;
-    flex-shrink: 0;
-
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: darkgray;
 }
 
+.section-1-image {
+    align-self: center;
+    width: 500px;
+    height: 250px;
+    flex-shrink: 0;
+
+}
 
 
 /* SECTION 2 */
@@ -111,7 +113,7 @@ li {
     font-size: 36px;
 }
 
-.image-container {
+.image-collection {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -128,7 +130,8 @@ li {
     color: #43464b;
 }
 
-.section-2 .pretend-image {
+.section-2-image {
+    /* formatting for the actual image */
     width: 150px;
     height: 150px;
     border-radius: 15px;
