@@ -112,12 +112,14 @@ li {
     flex: 1;
     font-weight: 800;
     font-size: 36px;
+    margin-top: 36px;
+    margin-bottom: 36px;
 }
 
 .image-collection {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     gap: 48px;
     flex: 7;
 }
@@ -138,6 +140,7 @@ li {
     border-radius: 15px;
     flex-shrink: 0;
     border: 4px solid #3882f6;
+    margin: 16px;
 }
 
 /* SECTION 3 */
