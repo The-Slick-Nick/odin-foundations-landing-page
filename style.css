@@ -215,3 +215,20 @@ li {
     font-size: 16px;
 
 }
+
+/* SECTION 5 */
+.section-5 {
+
+    background-color: #1f2937;
+    color: white;
+    height: 100px;
+}
+
+/* UTILITY STYLING */
+
+
+.full-center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
