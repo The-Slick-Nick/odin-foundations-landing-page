@@ -150,21 +150,22 @@ li {
     flex-direction: column;
     height: 75vh;
     background-color: #e5e7eb;
+    color: #1f2937;
+    height: 425px;
 }
 
 .quote {
     align-self: center;
-    font-size: 26px;
-    font-weight: 200;
+    font-size: 36px;
+    font-weight: lighter;
     font-style: italic;
-    color: #1f2937;
-    font-family: sans-serif;
 }
 
 .quoter {
     align-self: flex-end;
     font-weight: 800;
     font-family: sans-serif;
+    font-size: 24px;    
 }
 
 /* SECTION 4 */
