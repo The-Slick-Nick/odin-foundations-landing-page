@@ -38,12 +38,20 @@ body {
     display: flex;
     list-style-type: none;
     gap: 16px;
-    font-weight: 400;
+    font-weight: 400;   
     font-size: 14px;
 }
 
-li {
+li a {
     text-decoration: none;
+}
+
+li a:link, a:visited {
+    color: white;
+}
+
+li a:hover {
+    color: #e5e7eb;
 }
 
 .section-1-body {
