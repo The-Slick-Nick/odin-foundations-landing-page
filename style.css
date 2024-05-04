@@ -21,10 +21,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    box-sizing: border-box;
-    background-color: #1f2937;
     height: 525px;
-    color: white;
 }
 
 .section-1-header {
@@ -102,11 +99,9 @@ li {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: white;
     height: 500px;
     padding-top: 48px;
     padding-bottom: 48px;
-    box-sizing: border-box;
 }
 
 .section-2-header {
@@ -114,7 +109,6 @@ li {
     flex: 1;
     font-weight: 800;
     font-size: 36px;
-    color: #1f2937;
 }
 
 .image-container {
@@ -149,8 +143,6 @@ li {
     justify-content: center;
     flex-direction: column;
     height: 75vh;
-    background-color: #e5e7eb;
-    color: #1f2937;
     height: 425px;
     padding-left: 20%;
     padding-right: 20%
@@ -172,10 +164,6 @@ li {
 
 /* SECTION 4 */
 .section-4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
     height: 350px;
 }
 
@@ -220,14 +208,27 @@ li {
 
 /* SECTION 5 */
 .section-5 {
-
-    background-color: #1f2937;
-    color: white;
     height: 100px;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 /* UTILITY STYLING */
 
+.dark-section {
+    background-color: #1f2937;
+    color: white;   
+}
+
+.white-section {
+    background-color: white;
+    color: #1f2937;
+}
+
+.grey-section {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
 
 .full-center-container {
     display: flex;
