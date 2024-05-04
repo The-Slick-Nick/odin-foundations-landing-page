@@ -11,7 +11,7 @@ body {
 }
 
 .body-section {
-    /* temp for testing - outline sections */
+    box-sizing: border-box;
     padding-left: 15%;
     padding-right: 15%;
     height: 75vh;
@@ -99,32 +99,47 @@ li {
 .section-2 {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: white;
+    height: 500px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    box-sizing: border-box;
+}
+
+.section-2-header {
+    text-align: center;
+    flex: 1;
+    font-weight: 800;
+    font-size: 36px;
+    color: #1f2937;
 }
 
 .image-container {
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    align-items: center;
+    gap: 48px;
+    flex: 7;
 }
 
 .section-2 .image {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    width: 75px;
-    height: 75px;
-    font-size: 8px;
+    font-size: 16px;
+    width: 150px;
+    color: #43464b;
 }
 
 .section-2 .pretend-image {
-    width: 75px;
-    height: 75px;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
     flex-shrink: 0;
-    border: 2px solid blue;
+    border: 4px solid #3882f6;
 }
 
 /* SECTION 3 */
